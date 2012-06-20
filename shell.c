@@ -33,9 +33,7 @@ typedef struct{
      int flag_f;
 } args;
 
-/* i would have dismanteled this block of prototypes 
- * but my extra credit submissions kept blowing up
- * now i'm afraid to introduce anything dramatic */  
+/* large block of prototypes is large */ 
 
 void init_env();
 void comm_clear();
