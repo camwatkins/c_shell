@@ -1,0 +1,49 @@
+--------/\--- - - ------- - -  -          ------------- -- - ------     - -
+
+help [readme.nfo]
+
+--|.|----------  --------\-- --  ------------------- -  --- ---- - -- ----- 
+
+clr           : clears the screen.
+
+cd            : displays the current working directory.
+cd -path      : changes the directory to -path and sets
+              : -path to current working directory.
+
+dir           : displays current path directory.  functions as 'ls -al'
+dir -path     : displays directory at -path.  functions as 'ls -al'
+
+echo          : echos user's input to stdout
+
+environ       : displays all of the user's current environment strings
+
+help          : displays the content of this file.
+
+pause         : blocks addition access to the system until the 'enter' 
+              : key is pressed.
+
+arg &         : run arg in background, where arg is user's argument.
+
+input > file  : redirects input into newly created file.  if file already
+              : exists, it will be overwritten.  
+input >> file : appends input into file.  if file does not exist, it 
+              : will be created.
+output > file : redirects output into newly created file. 
+
+
+typical c-shell commands are also externally supported.
+
+--- - - - - ---------------------- -- . --\/ --------------  -  - ----------  
+
+
+this shell also supports launching a single batchfile via the command line:
+
+myshell -urbatch.here
+
+the shell will close immediately after finishing
+
+--------------------- ------------ ------------------------/ ----------------
+
+ctrl-c will not kill this program.
+
+      
